@@ -1,7 +1,6 @@
 "use client"
 
 import "./globals.css"
-import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { Instagram, Menu } from "lucide-react"
@@ -25,12 +24,6 @@ const indieFlower = Indie_Flower({
   weight: "400",
   variable: "--font-indie-flower",
 })
-
-export const metadata: Metadata = {
-  title: "PapercraftsNL",
-  description: "Handcrafted paper art and creations",
-    generator: 'v0.dev'
-}
 
 function Navigation() {
   const { t } = useLanguage()
@@ -131,6 +124,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
